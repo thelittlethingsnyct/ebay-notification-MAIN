@@ -4,8 +4,8 @@ app.use(express.json());
 
 app.get('/deletion', (req, res) => {
   const challengeCode = req.query.challenge_code;
-  const verificationToken = 'PASTE_YOUR_TOKEN_HERE';
-  const endpoint = 'https://YOUR-RENDER-URL.onrender.com/deletion';
+  const verificationToken = 'myebaytoken1234_ebaymarketplace23';
+  const endpoint = 'https://ebay-notification-main.onrender.com';
 
   const crypto = require('crypto');
   const hash = crypto.createHash('sha256')
